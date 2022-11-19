@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Highlight Words",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["extension.js"]
+    }
+  ]
+}
